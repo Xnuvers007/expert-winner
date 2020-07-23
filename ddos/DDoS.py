@@ -19,7 +19,7 @@ bytes = random._urandom(1500)
 os.system("clear")
 os.system("figlet DDos Attack")
   
-result = pyfiglet.figlet_format("XNUVERS25", font = "dotmatrix" ) 
+result = pyfiglet.figlet_format("Xnuvers", font = "dotmatrix" ) 
 print(result)
 print ('\n')
 
