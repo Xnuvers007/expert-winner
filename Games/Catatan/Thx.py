@@ -14,4 +14,4 @@ k = pyfiglet.figlet_format("XNUVERSXLPOIT", font = "doh")
 print(k)
 
 print ("tekan enter untuk mengakhiri")
-s = input("tekan enter...!!!"
+s = input("tekan enter...!!!")
