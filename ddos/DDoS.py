@@ -23,9 +23,13 @@ result = pyfiglet.figlet_format("XnuversXploitXen")
 print(result)
 print ('\n')
 
+a = "Tanggal = "
+b = "Bulan = "
+t = "Tahun = "
+
 hari_ini = datetime.now()
-tanggal = hari_ini.strftime('%d, %m, %y')
-print ('tanggal = ', tanggal)
+tanggal = hari_ini.strftime(a+'%d ' + b+'%m ' + t+'%y')
+print (tanggal)
 
 saat_ini = datetime.now()
 jam = saat_ini.strftime('%H:%M:%S')
