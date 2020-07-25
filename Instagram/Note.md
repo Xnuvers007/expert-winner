@@ -12,8 +12,12 @@ misal E:\Python\Project\ 'anyaanjanii'
 
 tanpa tanda kutip, lalu pilih yang ekstensi/format JPG, JPEG, Dll.
 
+Kamu Bisa download apk/exenya disini -----> https://tinyurl.com/ProfileDownloader Mediafire
+                                     -----> https://tinyurl.com/ProfileDownloader2 Solidfiles
 
-#################################################
+
+############## IN ENGLISH ######################
+
 
 to find out where the Location of the Poto Downloaded
 Namely where we run this tool, therein lies the picture
@@ -27,7 +31,8 @@ example E:\Python\Project\ 'anyaanjanii'
 
 without quotes, then select the extension / format JPG, JPEG, etc.
 
-you can download this Tools(App/Exe) ----->
+you can download this Tools(App/Exe) -----> https://tinyurl.com/ProfileDownloader Mediafire
+                                     -----> https://tinyurl.com/ProfileDownloader2 Solidfiles
 
 __  __                              __  __      _       _ _  __  __          
 \ \/ /_ __  _   ___   _____ _ __ ___\ \/ /_ __ | | ___ (_) |_\ \/ /___ _ __  
