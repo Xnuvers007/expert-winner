@@ -23,6 +23,6 @@ we run on E then the downloaded photo is also on E
 and there is made a new folder where the contents are downloaded photos, and the folder name is
 the username
 
-e.g. \: Python \ Project \ 'anyaanjanii'
+example E:\Python\Project\ 'anyaanjanii'
 
 without quotes, then select the extension / format JPG, JPEG, etc.
