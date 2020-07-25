@@ -30,3 +30,7 @@ y = translator.translate('Ip Address dari {} adalah {}'.format(a, addr))
 
 print (y.text)
 print ('Ip Address dari {} adalah {}'.format(a, addr))
+
+print('\n')
+
+a = input("Tekan enter Untuk Keluar...!!!")
