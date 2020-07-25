@@ -38,7 +38,7 @@ result = translator.translate('---...Tool ini Digunakkan untuk mendownload Profi
 print (result.text)
 
 print ("|-------------------------------------|")
-print ("| Author   : XnuversXploitXen         |")
+print ("| Author   : XNUVERS007               |")
 print ("| You Tube : https://bit.ly/Xnuvers   |")
 print ("| github   : https://bit.ly/Xnuvrs1   |")
 print ("| Facebook : https://bit.ly/Fesbuck   |")
@@ -96,7 +96,9 @@ print (result.text)
 
 print('\n')
 
-input("tekan enter untuk mengakhiri...!!!")
-time.sleep(3)
+pe = translator.translate('tekan enter untuk mengakhiri...!!!', src='id', dest = 'en')
+print(pe.text)
+po = input("tekan enter untuk mengakhiri...!!!")
 
+time.sleep(3)
 exit()
