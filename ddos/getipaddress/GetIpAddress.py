@@ -4,8 +4,9 @@ from googletrans import Translator
 
 translator = Translator()
 
-result = pyfiglet.figlet_format("XNUVERS25", font = "dotmatrix" ) 
+result = pyfiglet.figlet_format("XnuversXploitXen") 
 print(result)
+
 print ('\n')
 print ("|-------------------------------------|")
 print ("| Author   : XNUVERS007               |")
