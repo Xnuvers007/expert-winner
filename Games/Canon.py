@@ -4,7 +4,7 @@ from freegames import vector
 
 import pyfiglet 
   
-result = pyfiglet.figlet_format("Geeks", font = "doh" )
+result = pyfiglet.figlet_format("XnuversXploitXen", font = "doh" )
 print(result)
 
 ball = vector(-200, -200)
