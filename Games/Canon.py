@@ -1,9 +1,25 @@
 from random import randrange
 from turtle import *
 from freegames import vector
+from tkinter import *
+import tkinter.messagebox
+import pyfiglet
 
-import pyfiglet 
-  
+root = Tk()
+tkinter.messagebox.showinfo('ATTENTION...!!!', 'Selamat Datang Di game Canon Ball')
+tkinter.messagebox.showinfo('Tutorial', 'CARA BERMAINNYA MUDAH, PENCET MOUSE KIRI UNTUK NEMBAK')
+root.mainloop()
+
+root = Tk()
+result = tkinter.messagebox.askquestion('Pertanyaan', 'Anda ingin memulai gamenya ?')
+if result=='yes':
+    theLabel=Label(root, text="Enjoy Gamenya.")
+    theLabel.pack()
+else:
+    root.destroy()
+root.mainloop()
+
+
 result = pyfiglet.figlet_format("XnuversXploitXen", font = "doh" )
 print(result)
 
@@ -71,3 +87,7 @@ tracer(False)
 onscreenclick(tap)
 move()
 done()
+
+root = Tk()
+tkinter.messagebox.showinfo('Quit', 'Anda akan Keluar')
+root.mainloop(exit())
