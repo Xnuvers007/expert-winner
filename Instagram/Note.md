@@ -1,3 +1,16 @@
+# expert-winner
+# Instagram
+
+-----------------------------
+termux / terminal Linux
+pip install instaloader
+pkg install python3
+pkg upgrade && pkg update
+apt upgrade && apt update
+pkg install git
+-----------------------------
+
+
 # Instagram
 
 untuk mengetahui dimana Letak Lokasi Poto yang di Download
