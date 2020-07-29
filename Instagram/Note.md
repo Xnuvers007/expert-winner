@@ -1,6 +1,3 @@
-# expert-winner
-# Instagram
-
 -----------------------------
 termux / terminal Linux
 pip install instaloader
