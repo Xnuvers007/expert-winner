@@ -1,8 +1,10 @@
+#PYTHON 3.7
+#By XnuversXploitXen
+
 import pyfiglet
 from datetime import datetime
 from datetime import date
 from googletrans import Translator
-from tkinter import *
 import instaloader
 import time
 
