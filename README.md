@@ -1,6 +1,6 @@
 # expert-winner
 
-for termux Android, the tools for termux is ddos, myipaddress
+for termux Android, the tools for termux is ddos, myipaddress, instagram
 
 for pc, the tools for pc is all
 
