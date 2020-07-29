@@ -1,4 +1,8 @@
 # expert-winner
+
+for termux Android, the tools for termux is ddos, myipaddress
+for pc, the tools for pc is all
+
 Im just human with sins
 
 and i Hello, My name is XnuversXploit :D
@@ -11,3 +15,4 @@ __  __                              __  __      _       _ _  __  __
  /  \| | | | |_| |\ V /  __/ |  \__ \/  \| |_) | | (_) | | |_ /  \  __/ | | |
 /_/\_\_| |_|\__,_| \_/ \___|_|  |___/_/\_\ .__/|_|\___/|_|\__/_/\_\___|_| |_|
                                          |_|                                 
+
