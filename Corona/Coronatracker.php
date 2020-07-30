@@ -21,8 +21,8 @@ echo "| Site     : http://bit.ly/Mykingbee  |\n";
 echo "|-------------------------------------|\n";
 echo "\n";
   
-echo "Sekarang (now) = ".date('l, d / M / y');
-echo "Waktu  = ".date('H:i:s a');
+echo "Sekarang (now) = ".date('l, d / M / y')"\n";
+echo "Waktu  = ".date('H:i:s a')"\n";
 
 $url = file_get_contents('https://api.kawalcorona.com/indonesia/');
 $data = json_decode($url,true);
