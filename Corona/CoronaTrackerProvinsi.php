@@ -3,9 +3,9 @@
 $url = file_get_contents('https://api.kawalcorona.com/indonesia/provinsi');
 $data = json_decode($url,true);
 
-foreach($data->attributes()as $d)
+foreach($data as $d)
 {
-  echo $d;
+  echo $d['attributes']['FID'];
 }
 
 echo "FID : " . $data[0]['attributes']['FID'] . "\n";
