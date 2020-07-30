@@ -5,7 +5,8 @@ $data = json_decode($url,true);
 
 foreach($data as $d)
 {
-  echo $d['attributes']['FID']"\n";
+  echo $d['attributes']['FID'];
+  echo "\n";
 }
 
 echo "FID : " . $data[0]['attributes']['FID'] . "\n";
