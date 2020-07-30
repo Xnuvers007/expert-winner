@@ -4,7 +4,7 @@ $url = file_get_contents('https://api.kawalcorona.com/indonesia/provinsi');
 $data = json_decode($url,true);
 
 echo "daftar attribut : ".$data[0]['attributes']. "\n";
-$provinsi = $_POST ["Provinsi : "];
+$provinsi = $_POST ['Provinsi : '];
 
 echo "FID : " . $data[0]['FID'] . "\n";
 echo "Kode Provinsi : " . $data[0]['Kode_Provi'] . "\n";
