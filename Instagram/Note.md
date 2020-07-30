@@ -1,11 +1,16 @@
------------------------------
 termux / terminal Linux
-pip install instaloader
-pkg install python3
-pkg upgrade && pkg update
-apt upgrade && apt update
-pkg install git
------------------------------
+$ pip install instaloader
+$ pkg install python3
+$ pkg upgrade && pkg update
+$ apt upgrade && apt update
+$ pkg install git
+$ pkg install imagemagick
+$ git clone https://github.com/Xnuvers007/expert-winner
+$ cd expert-winner
+$ cd Instagram
+$ python3 ProfileDownload.py
+
+(download)
 
 
 # Instagram
