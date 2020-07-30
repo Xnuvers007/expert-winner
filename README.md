@@ -1,7 +1,8 @@
 # expert-winner
 
-Baca dulu setiap folder di github menggunakan perintah cat (cat <nama file>)
-First read each folder on github using the cat command (cat <filename>)
+Baca dulu setiap folder di github menggunakan perintah cat (cat "Nama File")
+
+First read each folder on github using the cat command (cat "filename")
 
 for termux Android, the tools for termux is ddos, myipaddress, instagram
 
