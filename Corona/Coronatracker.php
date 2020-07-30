@@ -9,15 +9,16 @@ echo " \  /| '_ \| | | \ \ / / _ \ '__/ __|\  /| '_ \| |/ _ \| | __|\  // _ \ '_
 echo " /  \| | | | |_| |\ V /  __/ |  \__ \/  \| |_) | | (_) | | |_ /  \  __/ | | |";
 echo "/_/\_\_| |_|\__,_| \_/ \___|_|  |___/_/\_\ .__/|_|\___/|_|\__/_/\_\___|_| |_|";
 echo "                                         |_|                                 ";
+echo "\n";
 
-echo "|-------------------------------------|";
-echo "| Author   : XNUVERS007               |";
-echo "| You Tube : https://bit.ly/Xnuvers   |";
-echo "| github   : https://bit.ly/Xnuvrs1   |";
-echo "| Facebook : https://bit.ly/Fesbuck   |";
-echo "| Instagram: https://bit.ly/Xnvrs13   |";
-echo "| Site     : http://bit.ly/Mykingbee  |";
-echo "|-------------------------------------|";
+echo "|-------------------------------------|\n";
+echo "| Author   : XNUVERS007               |\n";
+echo "| You Tube : https://bit.ly/Xnuvers   |\n";
+echo "| github   : https://bit.ly/Xnuvrs1   |\n";
+echo "| Facebook : https://bit.ly/Fesbuck   |\n";
+echo "| Instagram: https://bit.ly/Xnvrs13   |\n";
+echo "| Site     : http://bit.ly/Mykingbee  |\n";
+echo "|-------------------------------------|\n";
 echo "\n";
   
 echo "Sekarang (now) = ".date('l, d / M / y');
