@@ -21,7 +21,7 @@ $ cd Games
 
 $ cd Cpp
 
-$ clang Snake.cpp -> error -> g++ Snake.cpp
+$ clang Snake.cpp -> if error -> $ g++ Snake.cpp
 
 ======================================================
 
