@@ -60,11 +60,12 @@ socket(flood, PF_INET, SOCK_DGRAM, 17);
 
 printf "[0;32m>> Made by XnuversXploitXen from TangerangCyber  \n";
 printf "[0;32m>>
-  __  __
-  \ \/ /_ __  _   ___   _____ _ __ ___  
-   \  /| '_ \| | | \ \ / / _ \ '__/ __|
-   /  \| | | | |_| |\ V /  __/ |  \__ \
-  /_/\_\_| |_|\__,_| \_/ \___|_|  |___/ \n";
+__  __                               
+\ \/ /_ __  _   ___   _____ _ __ ___ 
+ \  /| '_ \| | | \ \ / / _ \ '__/ __|
+ /  \| | | | |_| |\ V /  __/ |  \__ \
+/_/\_\_| |_|\__,_| \_/ \___|_|  |___/
+                                     \n";
   
 printf "[0;31m>> hitting the ip    \n";
 printf "[0;36m>> hitting the ports     \n";
