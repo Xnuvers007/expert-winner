@@ -1,8 +1,4 @@
-// DDOS Attack :D
-// This PERL Program!
-// XnuversXploitXen
-
-
+#XnuversXploitXen
 #!/usr/bin/perl START SCRIPT
     
   print q{
