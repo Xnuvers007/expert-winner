@@ -39,27 +39,29 @@ cout <<endl;
 
 string crackPassword(string pass)
 {
-	int digit[7],alphabetSet=1,passwordLength=1;
-		start_t = clock();
-		string test,alphabet = "1337 also daktari is pro";
-		while(1){ switch(passwordLength)
-		{
-			case 1: while(alphabetSet<4){
-					switch(alphabetSet){
-						case 1 : alphabet = "-0123456789";
-								cout << endl << endl <<"Testing only digits(0123456789) - 10 Characters, please wait";
-							break;
-						case 2 : alphabet = "-abcdefghijklmnopqrstuvwxyz";
-								cout << endl << endl << "Couldn't find the password, increasing the searching level."<< endl << endl << "Testing onlylowercase characters(abcdefghijklmnopqrstuvwxyz) - 26 Characters, please wait";
-							break;
-						case 3 : alphabet = "-ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-						cout << endl << endl << "Couldn't find the password, increasing the searching level."<< endl << endl << "Testing only uppercase characters(ABCDEFGHIJKLMNOPQRSTUVWXYZ) - 26 Characters, please wait";
-							break;
-							}
-								for (digit[0]=1; digit[0]<alphabet.length(); digit[0]++)
-								{
-									attempt++;
-										if(attempt%2500000==0)
+int digit[7],alphabetSet=1,passwordLength=1;
+   start_t = clock();
+   string test,alphabet = "1337 also daktari is pro";
+   while(1){ switch(passwordLength)
+{
+	case 1: while(alphabetSet<4)
+	{
+	    switch(alphabetSet)
+	    {
+		case 1 : alphabet = "-0123456789";
+		cout << endl << endl <<"Testing only digits(0123456789) - 10 Characters, please wait";
+			break;
+		case 2 : alphabet = "-abcdefghijklmnopqrstuvwxyz";
+		cout << endl << endl << "Couldn't find the password, increasing the searching level."<< endl << endl << "Testing onlylowercase characters(abcdefghijklmnopqrstuvwxyz) - 26 Characters, please wait";
+			break;
+		case 3 : alphabet = "-ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+		cout << endl << endl << "Couldn't find the password, increasing the searching level."<< endl << endl << "Testing only uppercase characters(ABCDEFGHIJKLMNOPQRSTUVWXYZ) - 26 Characters, please wait";
+			break;
+	}
+	   for (digit[0]=1; digit[0]<alphabet.length(); digit[0]++)
+	{
+		attempt++;
+	if(attempt%2500000==0)
 											cout << ".";
 											test=alphabet[digit[0]];
 												for(int i=1;i<passwordLength;i++)
