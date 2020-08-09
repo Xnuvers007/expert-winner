@@ -20,8 +20,8 @@ import sphinx
 
 colorama.init()
 
-lop = input("Masukan Username : ")
-lap = input("Masukan Password : ")
+lop = input(Fore.RED + "Masukan Username : ")
+lap = input(Fore.BLUE + "Masukan Password : ")
 
 print ("Hi " + lop + ", Salam Kenal")
 time.sleep(2)
@@ -36,29 +36,17 @@ tanggal = hari_ini.strftime(a+'%d ' + b+'%m ' + t+'%y')
 saat_ini = datetime.now()
 jam = saat_ini.strftime('%H:%M:%S')
 
-print(colored('''
-  __  __                              __  __      _       _ _  __  __          
-  \ \/ /_ __  _   ___   _____ _ __ ___\ \/ /_ __ | | ___ (_) |_\ \/ /___ _ __  
-   \  /| '_ \| | | \ \ / / _ \ '__/ __|\  /| '_ \| |/ _ \| | __|\  // _ \ '_ \ 
-   /  \| | | | |_| |\ V /  __/ |  \__ \/  \| |_) | | (_) | | |_ /  \  __/ | | |
-  /_/\_\_| |_|\__,_| \_/ \___|_|  |___/_/\_\ .__/|_|\___/|_|\__/_/\_\___|_| |_|
-                                           |_|
-      ''','red'))
-print(colored('''
-    :::       :::        ::::::::::        :::         :::::::: 
-   :+:       :+:        :+:               :+:        :+:    :+: 
-  +:+       +:+        +:+               +:+        +:+         
- +#+  +:+  +#+        +#++:++#          +#+        +#+          
-+#+ +#+#+ +#+        +#+               +#+        +#+           
-#+#+# #+#+#         #+#               #+#        #+#    #+#     
-###   ###          ##########        ##########  ########       
-      ::::::::          :::   :::        :::::::::: 
-    :+:    :+:        :+:+: :+:+:       :+:         
-   +:+    +:+       +:+ +:+:+ +:+      +:+          
-  +#+    +:+       +#+  +:+  +#+      +#++:++#      
- +#+    +#+       +#+       +#+      +#+            
-#+#    #+#       #+#       #+#      #+#             
-########        ###       ###      ##########       ''','blue'))
+xnuvers = pyfiglet.figlet_format(Fore.RED + "Xnuvers")
+print (xnuvers)
+
+Xploit = pyfiglet.figlet_format(Fore.RED + "Xpl" + Fore.WHITE + "oit")
+print (Xploit)
+
+Xentzh = pyfiglet.figlet_format(Fore.WHITE + "Xentzh")
+print (Xentzh)
+
+welcome = pyfiglet.figlet_format(Fore.BLUE + "Welcome", font = "alligator") 
+print(welcome)
 
 print('\n')
 
@@ -90,7 +78,7 @@ k = str(input(Fore.RED + "[+] Anda ingin menyalakan pencarian aman/tidak ? (On /
 print (colored(k, 'white'))
 
 s = int(input(Fore.YELLOW + "[+] Masukan berapa banyak hasil pencarian : "))
-print (colored(s, 'orange'))
+print (colored(s, 'grey'))
 
 d = str(input(Fore.GREEN + "[+] Masukan nama domain website misal com, org, id, dll. bukan seperti ini (.com) = "))
 print(colored(d, 'green'))
