@@ -36,17 +36,25 @@ tanggal = hari_ini.strftime(a+'%d ' + b+'%m ' + t+'%y')
 saat_ini = datetime.now()
 jam = saat_ini.strftime('%H:%M:%S')
 
-xnuvers = pyfiglet.figlet_format(Fore.RED + "Xnuvers")
-print (xnuvers)
+print ('\n')
 
-Xploit = pyfiglet.figlet_format(Fore.RED + "Xpl" + Fore.WHITE + "oit")
-print (Xploit)
-
-Xentzh = pyfiglet.figlet_format(Fore.WHITE + "Xentzh")
-print (Xentzh)
-
-welcome = pyfiglet.figlet_format(Fore.BLUE + "Welcome", font = "alligator") 
+welcome = Fore.BLUE + pyfiglet.figlet_format("Welcome", font = "3-d") 
 print(welcome)
+
+xnk = Fore.GREEN + pyfiglet.figlet_format("Anonymous", font = 'standard')
+print (xnk)
+
+print (Fore.RED + "=============================")
+print (colored('\t Xnuvers', 'red'))
+
+asd = (colored('\t Xpl', 'red'))
+dsa = (colored('oit','white'))
+
+print (asd+dsa)
+
+print (colored('\t Xentzh', 'white'))
+print ("=============================")
+
 
 print('\n')
 
