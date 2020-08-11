@@ -91,8 +91,8 @@ print (colored(s, 'grey'))
 d = str(input(Fore.GREEN + "[+] Masukan nama domain website misal com, org, id, dll. bukan seperti ini (.com) = "))
 print(colored(d, 'green'))
 
-bs = str(input(Fore.AQUA + "[+] Masukan terjemahan Bahasa (contoh: inggris = en, indonesia = id, dll.) : "))
-print (colored(bs, 'aqua'))
+bs = str(input(Fore.BLUE + "[+] Masukan terjemahan Bahasa (contoh: inggris = en, indonesia = id, dll.) : "))
+print (colored(bs, 'BLUE'))
 
 print ('\n')
 
