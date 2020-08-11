@@ -4,8 +4,11 @@
 
 import whois
 import time
+from googletrans import Translator
+from colorama import Fore
+import colorama
 
-print ('''NOTICE: The expiration date displayed in this record is the date the
+Ex = Fore.GREEN + '''NOTICE: The expiration date displayed in this record is the date the
 registrar' s sponsorship of the domain name registration in the registry is
 Currently set to expire. This date does not necessarily reflect the expiration
 Date of the domain name registrant’s agreement with the sponsoring
@@ -35,7 +38,12 @@ operational stability. UeriSign may restrict or terminate your access to the
 Whois database for failure to abide by these terms of use. VeriSign
 Reserves the right to modify these terms at any time.
 ==========The Registry database contains ONLY .COM, .NET, .EDU domains and
-Registrars.==========''')
+Registrars.=========='''
+
+print (Ex)
+
+result = translator.translate(Ex, src='en' , dest='id')
+print (result.dest)
 
 a = input("Ip Address ? = ")
 
