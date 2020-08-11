@@ -43,7 +43,7 @@ b = whois.whois(a)
 
 print (b)
 
-print("=====XnuversXploitXen"=====)
+print("=====XnuversXploitXen=====")
 
 input("Press Enter To exit in 3 seconds")
 time.sleep(3)
