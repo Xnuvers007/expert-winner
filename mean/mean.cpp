@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-main(){
+int main(){
 int pil,banyak[100],x,modus[100],k=1,n;
 float nilai[100],jumlah=0,max,min, rata,med;
 cout<<"masukan jumlah bilangan= ";cin>>n;   
